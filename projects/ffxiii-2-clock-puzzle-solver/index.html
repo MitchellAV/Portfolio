@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="graph.js" charset="utf-8"></script>
+  <script src="canvas.js" charset="utf-8"></script>
+  <script src="source.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="master.css">
+  <!-- <script src="graph.js" charset="utf-8"></script> -->
+  <title>FFXIII-2 Paradox Puzzle Solver</title>
+</head>
+
+<body>
+  <div id="menu">
+    <div class="">
+
+      <input type="submit" id="undo" name="undo" value="Undo">
+      <button type="button" name="1">1</button>
+      <button type="button" name="2">2</button>
+      <button type="button" name="3">3</button>
+      <button type="button" name="4">4</button>
+      <button type="button" name="5">5</button>
+      <button type="button" name="6">6</button>
+
+      <input type="submit" id="solve" name="solve" value="Solve">
+      <input type="submit" id="clear" name="clear" value="Clear">
+      <input type="submit" id="create" name="create" value="Create">
+    </div>
+    <div class="">
+      <p id="solNum"></p>
+      <input type="submit" id="previous" name="previous" value="Previous">
+      <input type="submit" id="next" name="next" value="Next">
+    </div>
+
+  </div>
+  <div id="puzzle">
+
+  </div>
+  <div id="solution">
+    <p id="numSol"></p>
+  </div>
+
+  <canvas id="canvas"></canvas>
+</body>
+
+</html>

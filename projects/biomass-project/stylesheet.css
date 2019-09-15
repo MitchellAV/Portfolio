@@ -1,0 +1,82 @@
+body {
+  background-color: white;
+  overflow: auto;
+}
+
+div {
+  background-color: rgba(255,255,255, 0.3);
+  border-radius: 15px;
+  border: 5px solid royalblue;
+  padding: 0px;
+}
+div div {
+  background-color: rgba(255,255,255, 0.3);
+  border-radius: 15px;
+  border: 5px solid gold;
+  padding: 30px;
+}
+div .button {
+  width: auto;
+}
+
+div div children{
+
+}
+
+.hidden {
+  display: none !important;
+}
+
+#content {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-gap: 1em;
+  grid-template:
+  'title title' 20%
+  'toggles visual' 40%
+  'toggles visual' 40% / 20% 80%;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sensor {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#title {
+  grid-area: title;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#toggles {
+  grid-area: toggles;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content:space-around;
+}
+
+#visual {
+  grid-area: visual;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#charts {
+  grid-area: charts;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Biomass WebApp</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+  </script>
+</head>
+
+<body id="content">
+  <div id="title">
+    <h1>Biomass Systhesizer Project</h1>
+    <img src="/BiomassProject/imgs/sjsu logo.png" alt="" width="400px" height="75px">
+  </div>
+  <div id="toggles">
+    <div class="summary button">View all sensors</div>
+    <div class="temperatures button">Temperatures</div>
+    <div class="irradiance button">Irradiance</div>
+    <div class="massflowrate button">Mass Flow Rate</div>
+    <div class="ph button">PH</div>
+    <div class="mixer button">Mixer Speed</div>
+  </div>
+  <div id="visual">
+    <div id="summary" class="summary">
+      <div class="info">
+        <h2>Here is Info about our project...</h2>
+      </div>
+      <div class="">
+        <h4>Current Sensor Readings</h4>
+        <div class="temp">Temperatures: 32 C</div>
+        <div class="irradiance">Irradiance: 200 W/m2</div>
+        <div class="flowrate">Mass flow rate: 10 g/s</div>
+        <div class="ph">PH: 7.5</div>
+        <div class="mixer">Mixer Speed: 200 RPM</div>
+      </div>
+    </div>
+    <div id="temperatures" class="sensor hidden">
+      <div class="data">
+        <h2><b>Current Temperatures</b></h2>
+        <h3 id="amb"><b>Ambient: </b></h3>
+        <h3 id="tank"><b>Tank: </b></h3>
+        <h3 id="ad"><b>Anerobic Digestor: </b></h3>
+      </div>
+      <div class="chart">
+        <img src="/BiomassProject/imgs/temps.png" alt="" width="600px" height="420px">
+      </div>
+    </div>
+    <div id="irradiance" class="sensor hidden">
+      <div class="data">
+        <h2><b>Current Irradiance</b></h2>
+        <h3 id="irradiance"><b>Irradiance: </b></h3>
+      </div>
+      <div class="chart">
+        <img src="/BiomassProject/imgs/irradiance.png" alt="" width="600px" height="420px">
+      </div>
+    </div>
+    <div id="massflowrate" class="sensor hidden">
+      <div class="data">
+        <h2><b>Current Mass Flow Rate</b></h2>
+        <h3 id="scfm"><b>SCFM: </b></h3>
+        <h3 id="cfm"><b>CFM: </b></h3>
+        <h3 id="massflow"><b>Mass Flow Rate: </b></h3>
+      </div>
+      <div class="chart">
+        <img src="/BiomassProject/imgs/massflowrate.png" alt="" width="600px" height="420px">
+      </div>
+    </div>
+    <div id="ph" class="sensor hidden">
+      <div class="data">
+        <h2><b>Current PH</b></h2>
+        <h3 id="ph"><b>PH: </b></h3>
+      </div>
+      <div class="chart">
+        <img src="/BiomassProject/imgs/pressure.png" alt="" width="600px" height="420px">
+      </div>
+    </div>
+    <div id="mixer" class="sensor hidden">
+      <div class="data">
+        <h2><b>Current Mixer Speed</b></h2>
+        <h3 id="rpm"><b>RPM: </b></h3>
+      </div>
+      <div class="chart">
+        <img src="/BiomassProject/imgs/angularvelocity.png" alt="" width="600px" height="420px">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

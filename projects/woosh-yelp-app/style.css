@@ -1,0 +1,98 @@
+#map {
+  width: 100%;
+  height: 50%;
+  /* display: none; */
+}
+
+br {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  /* any dimensions are fine, it can be responsive with max-width */
+  width: 100%;
+  height: 80vh;
+}
+
+.carousel-inner {
+  /* make sure your .items will get correct height */
+  height: 100%;
+  background: black;
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 250px; */
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption p {
+  margin: 0px;
+}
+
+.item {
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100%;
+  position: relative;
+}
+
+.item > img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+}
+
+.infowindow {
+  display: flex;
+  flex-direction: column;
+}
+.infowindow img {
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.infowindow p {
+  margin: 0px;
+}
+
+.gm-style .gm-style-iw-c {
+  padding: 12px !important;
+  overflow: hidden;
+}
+
+.phone {
+
+}
+
+@media only screen and (min-width : 450px) {
+  .phone {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+/* .left {
+  display: none;
+} */
+
+/* html, body {
+  position:fixed;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+} */
