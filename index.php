@@ -51,7 +51,10 @@
       <h1>About me</h1>
       <p>I recently graduated from San Jose State University with a B.S. in Mechanical Engineering and two minors in Computer Science and Mathematics respectively. I am interested in Thermofluids and Computer Science and wish to pursue a career in either of these fields. I enjoy learning new skills and am passionate about technology and learning new languages. I am currently studying Japanese and Full-Stack Development in my spare time to further my knowledge and pursue my many interests. </p>
     </section>
-
+    <section id="skills">
+      <h1>Skills</h1>
+      
+    </section>
 
     <section id="projects">
       <h1>Projects</h1>
