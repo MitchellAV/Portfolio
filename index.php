@@ -40,6 +40,7 @@
       </ul>
     </nav>
   </header>
+
   <aside id="contact">
     <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
     <a href="https://www.linkedin.com/in/mitchellvictoriano/" target="_blank">LinkedIn</a>
@@ -47,6 +48,7 @@
     <a href="https://myanimelist.net/profile/MitchellV" target="_blank">MyAnimeList</a>
     <a href="https://memrise.com/user/MitchellV/" target="_blank">Memrise</a>
   </aside>
+
   <main id="container">
     <h1>Work in Progress...</h1>
 
@@ -54,9 +56,9 @@
       <h1>About me</h1>
       <p>I recently graduated from San Jose State University with a B.S. in Mechanical Engineering and two minors in Computer Science and Mathematics respectively. I am interested in Thermofluids and Computer Science and wish to pursue a career in either of these fields. I enjoy learning new skills and am passionate about technology and learning new languages. I am currently studying Japanese and Full-Stack Development in my spare time to further my knowledge and pursue my many interests. </p>
     </section>
+
     <section id="skills">
       <h1>Skills</h1>
-
     </section>
 
     <section id="projects">
@@ -149,9 +151,8 @@
     </section>
 
   </main>
-  <aside id="sidenav">
 
-  </aside>
+  <aside id="sidenav"></aside>
 
   <footer id="footer">
     <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
