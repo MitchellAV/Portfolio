@@ -90,3 +90,17 @@ grid-area: desc;
 .view-code {
   grid-area: code;
 }
+
+@media only screen and (max-width: 768px){
+  #me-projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  }
+  #cs-projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
