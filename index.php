@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <header id="header">
+  <header>
     <nav>
       <ul id="navbar">
         <li>

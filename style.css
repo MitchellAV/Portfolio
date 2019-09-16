@@ -21,14 +21,22 @@ h1 {
   background: lightgray;
 }
 
-header{
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-footer {
-}
+
+footer {}
+
 article {
   margin: 10px;
 }
 
+#contact {
+  margin-top: 60px;
+}
 
 #navbar {
   margin: auto;
@@ -54,9 +62,9 @@ article {
   grid-template-columns: auto 5fr;
   grid-template-rows: auto;
   grid-template-areas:
-  "img desc"
-  "img desc"
-  "live-view live-view";
+    "img desc"
+    "img desc"
+    "live-view live-view";
 }
 
 #cs-projects {
@@ -75,9 +83,9 @@ article {
   grid-template-columns: auto 5fr;
   grid-template-rows: auto;
   grid-template-areas:
-  "img desc"
-  "img desc"
-  "live-view code";
+    "img desc"
+    "img desc"
+    "live-view code";
 }
 
 .article-img {
@@ -85,7 +93,7 @@ article {
 }
 
 .article-desc {
-grid-area: desc;
+  grid-area: desc;
 }
 
 .live-view {
@@ -102,7 +110,7 @@ grid-area: desc;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-   }
+  }
 
   #cs-projects {
     display: flex;
@@ -117,10 +125,10 @@ grid-area: desc;
     grid-template-columns: auto 5fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "img"
-    "desc"
-    "live-view"
-    "code";
+      "img"
+      "desc"
+      "live-view"
+      "code";
   }
 
   .me-article {
@@ -129,18 +137,14 @@ grid-area: desc;
     grid-template-columns: auto 5fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "img"
-    "desc"
-    "live-view";
+      "img"
+      "desc"
+      "live-view";
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
+@media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}
