@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Career portfolio for Mitchell Victoriano - Aspiring Mechanical Engineer and Software Developer.">
-  <title>Mitchell Victoriano</title>
+  <title>Mitchell Victoriano - Portfolio</title>
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -17,26 +17,28 @@
 
 <body>
   <header id="header">
-    <ul id="navbar">
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#projects">Projects</a>
-      </li>
-      <li>
-        <a href="#">Skills</a>
-      </li>
-      <li>
-        <a href="#resume">Resume</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
+    <nav>
+      <ul id="navbar">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#">Skills</a>
+        </li>
+        <li>
+          <a href="#resume">Resume</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <aside id="contact">
     <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
@@ -67,12 +69,10 @@
           <div class="article-desc">
             <h2>Biomass Fuel Synthesizer Subsystems</h3>
               <p>San Jose State University Mechanical Engineering senior project.</p>
-              <ul>
-                <li>Created a water Thermal Storage system using two flat plate solar collectors to maintain 50 gallons of water above 35 °C</li>
-                <li>Created a Data Collector using an Arduino that collected data from 8 different sensors over a 24-hour period</li>
-                <li>Saved timestamped sensor data to an SD card and sent to a Web Server for data visualization</li>
-                <li>Developed a Full-Stack web application that received data from an Arduino that organized and visualized data from a MySQL database</li>
-              </ul>
+              <p>Created a water Thermal Storage system using two flat plate solar collectors to maintain 50 gallons of water above 35 °C</p>
+              <p>Created a Data Collector using an Arduino that collected data from 8 different sensors over a 24-hour period</p>
+              <p>Saved timestamped sensor data to an SD card and sent to a Web Server for data visualization</p>
+              <p>Developed a Full-Stack web application that received data from an Arduino that organized and visualized data from a MySQL database</p>
           </div>
           <button type="button" name="button" class="live-view"><a href="https://drive.google.com/drive/folders/1ABje_NoLvo1Eb6C6gPmI-YtA4ywT66pm">View project</a></button>
         </article>
