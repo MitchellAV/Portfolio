@@ -32,7 +32,7 @@
           <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#resume">Resume</a>
+          <a href="/resume">Resume</a>
         </li>
         <li>
           <a href="#contact">Contact</a>

@@ -9,12 +9,12 @@ nav ul {
 
 nav li {
   background: white;
-  padding: 10px;
+  padding: .25rem;
 }
 
 nav a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 h1 {
@@ -29,7 +29,7 @@ header {
 footer {}
 
 article {
-  margin: 10px;
+  margin: 1rem;
 }
 
 #contact {
@@ -37,7 +37,7 @@ article {
 
 #navbar {
   margin: auto;
-  padding: 10px;
+  padding: .5rem;
   background: lightgray;
   display: flex;
   flex-direction: row;
@@ -50,12 +50,11 @@ article {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 10px;
 }
 
 .me-article {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: .5rem;
   grid-template-columns: auto 5fr;
   grid-template-rows: auto;
   grid-template-areas:
@@ -76,7 +75,7 @@ article {
 
 .cs-article {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: .5rem;
   grid-template-columns: auto 5fr;
   grid-template-rows: auto;
   grid-template-areas:
@@ -118,7 +117,7 @@ article {
 
   .cs-article {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: .5rem;
     grid-template-columns: auto 5fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -130,7 +129,7 @@ article {
 
   .me-article {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: .5rem;
     grid-template-columns: auto 5fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -139,13 +138,32 @@ article {
       "live-view";
   }
 
-  nav a {
-    font-size: 1rem;
-  }
+nav a {
+  font-size: .75rem;
+}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+
+}
