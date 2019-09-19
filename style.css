@@ -11,7 +11,7 @@ main {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/portfolio/imgs/hero-img.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/imgs/hero-img.JPG");
   height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
