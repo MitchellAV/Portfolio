@@ -30,8 +30,13 @@ nav {
   right: 0;
 }
 
-header {
+button {
+  height: auto;
+}
 
+header img {
+ width: 100%;
+ height: auto;
 }
 
 footer {}
@@ -41,7 +46,9 @@ article {
 }
 
 article img {
-  width:
+  width: 80%;
+  margin: auto;
+  height: auto;
 }
 
 #contact a {
@@ -76,7 +83,6 @@ article img {
 .cs-article {
   display: grid;
   grid-gap: .5rem;
-  grid-template-columns: auto 5fr;
   grid-template-rows: auto;
   grid-template-areas:
     "img"
@@ -88,7 +94,6 @@ article img {
 .me-article {
   display: grid;
   grid-gap: .5rem;
-  grid-template-columns: auto 5fr;
   grid-template-rows: auto;
   grid-template-areas:
     "img"
@@ -103,22 +108,23 @@ nav a {
 
 .article-img {
   grid-area: img;
+  align-self: start;
 }
 
 .article-desc {
   grid-area: desc;
+  align-self: start;
 }
 
 .live-view {
   grid-area: live-view;
+  align-self: end;
 }
 
 .view-code {
   grid-area: code;
+  align-self: end;
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -128,16 +134,16 @@ nav a {
     grid-template-rows: auto;
   }
 
-  .me-article {
+  /* .me-article {
     display: grid;
     grid-gap: .5rem;
-    grid-template-columns: auto 5fr;
+    grid-template-columns: auto 1fr;
     grid-template-rows: auto;
     grid-template-areas:
       "img desc"
       "img desc"
       "live-view live-view";
-  }
+  } */
 
   #cs-projects {
     display: grid;
@@ -149,24 +155,58 @@ nav a {
     justify-content: space-evenly; */
   }
 
+  /* .cs-article {
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "img desc"
+      "img desc"
+      "live-view code";
+  } */
+
+
   .cs-article {
     display: grid;
     grid-gap: .5rem;
     grid-template-columns: auto 5fr;
     grid-template-rows: auto;
     grid-template-areas:
-      "img desc"
-      "img desc"
-      "live-view code";
+      "img"
+      "desc"
+      "live-view"
+      "code";
   }
 
-  nav a {
-    font-size: 1.25rem;
+  .me-article {
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: auto 5fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "img"
+      "desc"
+      "live-view";
   }
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  article img {
+    width: 50%;
+    height: auto;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 1024px and up) */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  header img {
+   width: 100%;
+   height: 90vh;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1440px and up) */
 @media only screen and (min-width: 1440px) {}
