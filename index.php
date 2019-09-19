@@ -17,7 +17,7 @@
 
 <body>
   <header>
-    <img src="/imgs/hero-img.JPG" alt="">
+    <img src="\imgs\hero-img.JPG" alt="">
   </header>
   <nav>
     <ul id="navbar">
