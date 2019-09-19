@@ -43,10 +43,11 @@
 
   <aside id="contact">
     <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
-    <a href="https://www.linkedin.com/in/mitchellvictoriano/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/MitchellAV" target="_blank">Github</a>
-    <a href="https://myanimelist.net/profile/MitchellV" target="_blank">MyAnimeList</a>
-    <a href="https://memrise.com/user/MitchellV/" target="_blank">Memrise</a>
+    <h2>Social: <a href="https://www.linkedin.com/in/mitchellvictoriano/" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/MitchellAV" target="_blank">Github</a> |
+    <a href="https://myanimelist.net/profile/MitchellV" target="_blank">MyAnimeList</a> |
+    <a href="https://memrise.com/user/MitchellV/" target="_blank">Memrise</a></h2>
+
   </aside>
 
   <main id="container">
