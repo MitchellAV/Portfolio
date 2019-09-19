@@ -16,8 +16,13 @@
 </head>
 
 <body>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Mitchell Victoriano</h1>
+      <p>Aspiring Mechanical Engineer and Software Developer.</p>
+    </div>
+  </div>
   <header>
-    <img src="\imgs\hero-img.JPG" alt="">
   </header>
   <nav>
     <ul id="navbar">
@@ -42,25 +47,27 @@
     </ul>
   </nav>
 
-  <aside id="contact">
-    <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
-    <h2>Social: <a href="https://www.linkedin.com/in/mitchellvictoriano/" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/MitchellAV" target="_blank">Github</a> |
-      <a href="https://myanimelist.net/profile/MitchellV" target="_blank">MyAnimeList</a> |
-      <a href="https://memrise.com/user/MitchellV/" target="_blank">Memrise</a>
-    </h2>
-    <hr>
-  </aside>
+
 
   <main id="container">
-    <h1>Work in Progress...</h1><hr>
+    <aside id="contact">
+      <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
+      <h2>Social: <a href="https://www.linkedin.com/in/mitchellvictoriano/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/MitchellAV" target="_blank">Github</a> |
+        <a href="https://myanimelist.net/profile/MitchellV" target="_blank">MyAnimeList</a> |
+        <a href="https://memrise.com/user/MitchellV/" target="_blank">Memrise</a>
+      </h2>
+      <hr>
+    </aside>
+    <h1>Work in Progress...</h1>
+    <hr>
 
     <section id="about">
       <h1>About me</h1>
       <p>I recently graduated from San Jose State University with a B.S. in Mechanical Engineering and two minors in Computer Science and Mathematics respectively. I am interested in Thermofluids and Computer Science and wish to pursue a career in
         either of these fields. I enjoy learning new skills and am passionate about technology and learning new languages. I am currently studying Japanese and Full-Stack Development in my spare time to further my knowledge and pursue my many
         interests. </p>
-<hr>
+      <hr>
     </section>
 
     <section id="skills">
@@ -162,19 +169,19 @@
       </section>
       <hr>
     </section>
+    <aside id="sidenav"></aside>
 
+    <footer id="footer">
+      <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
+      <h2>Social: <a href="https://www.linkedin.com/in/mitchellvictoriano/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/MitchellAV" target="_blank">Github</a> |
+        <a href="https://myanimelist.net/profile/MitchellV" target="_blank">MyAnimeList</a> |
+        <a href="https://memrise.com/user/MitchellV/" target="_blank">Memrise</a>
+      </h2>
+    </footer>
   </main>
 
-  <aside id="sidenav"></aside>
 
-  <footer id="footer">
-    <h2>Contact Me: <a href="mailto: mitchellvictoriano@gmail.com">mitchellvictoriano@gmail.com</a></h2>
-    <h2>Social: <a href="https://www.linkedin.com/in/mitchellvictoriano/" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/MitchellAV" target="_blank">Github</a> |
-      <a href="https://myanimelist.net/profile/MitchellV" target="_blank">MyAnimeList</a> |
-      <a href="https://memrise.com/user/MitchellV/" target="_blank">Memrise</a>
-    </h2>
-  </footer>
 </body>
 
 </html>
