@@ -27,22 +27,22 @@
   <nav>
     <ul id="navbar">
       <li>
-        <a href="/">Home</a>
+        <a  href="/">Home</a>
       </li>
       <li>
-        <a href="#about">About</a>
+        <a  href="#about">About</a>
       </li>
       <li>
-        <a href="#projects">Projects</a>
+        <a  href="#projects">Projects</a>
       </li>
       <li>
-        <a href="#skills">Skills</a>
+        <a  href="#skills">Skills</a>
       </li>
       <li>
         <a href="/resume">Resume</a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a  href="#contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -63,17 +63,23 @@
     <hr>
 
     <section id="about">
-      <h1>About me</h1>
-      <p>I recently graduated from San Jose State University with a B.S. in Mechanical Engineering and two minors in Computer Science and Mathematics respectively. I am interested in Thermofluids and Computer Science and wish to pursue a career in
-        either of these fields. I enjoy learning new skills and am passionate about technology and learning new languages. I am currently studying Japanese and Full-Stack Development in my spare time to further my knowledge and pursue my many
-        interests. </p>
-      <hr>
+      <div class="wrapper">
+        <div>
+          <h1>About me</h1>
+          <p>I recently graduated from San Jose State University with a B.S. in Mechanical Engineering and two minors in Computer Science and Mathematics respectively. I am interested in Thermofluids and Computer Science and wish to pursue a career in
+            either of these fields. I enjoy learning new skills and am passionate about technology and learning new languages. I am currently studying Japanese and Full-Stack Development in my spare time to further my knowledge and pursue my many
+            interests. </p>
+<hr>
+          </div>
+
+          <div id="skills">
+            <h1>Skills</h1>
+            <hr>
+          </div>
+      </div>
     </section>
 
-    <section id="skills">
-      <h1>Skills</h1>
-      <hr>
-    </section>
+
 
     <section id="projects">
       <h1>Projects</h1>
