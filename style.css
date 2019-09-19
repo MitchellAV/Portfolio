@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: .25rem;
 }
 
 nav ul {
@@ -22,7 +22,7 @@ h1 {
   background: lightgray;
 }
 
-header {
+nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -30,10 +30,18 @@ header {
   right: 0;
 }
 
+header {
+
+}
+
 footer {}
 
 article {
   margin: 1rem;
+}
+
+article img {
+  width:
 }
 
 #contact a {
