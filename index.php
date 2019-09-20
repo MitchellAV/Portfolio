@@ -98,6 +98,7 @@
               <p>Developed a Full-Stack web application that received data from an Arduino that organized and visualized data from a MySQL database</p>
           </div>
           <button type="button" name="button" class="live-view"><a href="https://drive.google.com/drive/folders/1ABje_NoLvo1Eb6C6gPmI-YtA4ywT66pm">View project</a></button>
+          <hr>
         </article>
         <article class="me-article">
           <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
@@ -107,6 +108,7 @@
                 exchanger would sit underneath the shower floor and would recover wasted heat from the already heated shower water to heat the incoming cold water to save the homeowner money.</p>
           </div>
           <button type="button" name="button" class="live-view"><a href="https://docs.google.com/presentation/d/1VgQ5eYra02JxKyfxeS2wEvWehOgLRvz0Ecfv94kUz6g/edit#slide=id.p">View project</a></button>
+          <hr>
         </article>
         <article class="me-article">
           <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
@@ -116,6 +118,7 @@
                 sensors, two photo interrupters, two servo motors, and an Arduino ATmega328 micro-controller to locate the position of the ball and then appropriately angle the table to force the ball back into the center.</p>
           </div>
           <button type="button" name="button" class="live-view"><a href="https://www.dropbox.com/home/Projects/Ball%20Balancing%20Table">View project</a></button>
+          <hr>
         </article>
         <article class="me-article">
           <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">

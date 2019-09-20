@@ -119,10 +119,9 @@ article img {
   grid-gap: .5rem;
   grid-template-rows: auto;
   grid-template-areas:
-    "img"
-    "desc"
-    "live-view"
-    "code";
+    "img img"
+    "desc desc"
+    "live-view code";
 }
 
 .me-article {
@@ -203,10 +202,9 @@ nav a {
     grid-template-columns: auto 5fr;
     grid-template-rows: auto;
     grid-template-areas:
-      "img"
-      "desc"
-      "live-view"
-      "code";
+    "img img"
+    "desc desc"
+    "live-view code";
   }
 
   .me-article {
