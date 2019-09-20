@@ -199,7 +199,7 @@ nav a {
   .cs-article {
     display: grid;
     grid-gap: .5rem;
-    grid-template-columns: auto 5fr;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
     "img img"
@@ -210,7 +210,7 @@ nav a {
   .me-article {
     display: grid;
     grid-gap: .5rem;
-    grid-template-columns: auto 5fr;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
       "img"
