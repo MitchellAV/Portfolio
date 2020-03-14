@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A* Graph</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="cell.js"></script>
+    <script src="minHeap.js"></script>
+
+    <script src="pathfinder.js"></script>
+    <script src="events.js"></script>
+    <script src="canvas.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init();">
+    <canvas id="canvas"></canvas>
+<div>
+    <form id="algForm">
+        <p>Pathfinding Algorithm:</p>
+        <div>
+            <input type="radio" id="bfs" name="alg" value="bfs" checked>
+            <label for="bfs">Best-First Search</label>
+            <input type="radio" id="astar" name="alg" value="astar" checked>
+            <label for="astar">A*</label>
+            <input type="radio" id="dijkstra" name="alg" value="dijkstra">
+            <label for="dijkstra">Dijkstra</label>
+        </div>
+    </form>
+    <form id="cornerForm">
+        <p>Neighbors:</p>
+        <div>
+            <input type="radio" id="nocorners" name="corner" value="nocorners" checked>
+            <label for="nocorners">No Diagonals</label>
+            <input type="radio" id="corners" name="corner" value="corners">
+            <label for="corners">Diagonals</label>
+        </div>
+    </form>
+    <div>
+        <button onclick="solve();">Solve Puzzle</button>
+        <button onclick="init();">Reset</button>
+        <button onclick="combo();">Reset and Solve</button>
+        <button onclick="addWalls();">Add Random Walls</button>
+    </div>
+
+</div>
+</body
+>
+</html>
