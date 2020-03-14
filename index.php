@@ -19,7 +19,7 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1>Mitchell Victoriano</h1>
-      <p>Aspiring Mechanical Engineer and Software Developer.</p>
+      <p>Mechanical Engineer and Software Developer.</p>
     </div>
   </div>
   <header>
