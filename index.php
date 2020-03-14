@@ -18,7 +18,7 @@
 <body>
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Mitchell Victoriano </h1>
+      <h1>Mitchell Victoriano</h1>
       <p>Mechanical Engineer and Software Developer</p>
     </div>
   </div>
