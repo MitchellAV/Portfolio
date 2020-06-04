@@ -19,7 +19,7 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1>Mitchell Victoriano</h1>
-      <p>Aspiring Mechanical Engineer and Software Developer.</p>
+      <p>Mechanical Engineer and Software Developer</p>
     </div>
   </div>
   <header>
@@ -173,6 +173,16 @@
                 seasons and gives names to the changes seen in the natural world.</p>
           </div>
           <button type="button" name="button" class="live-view"><a href="projects\japanese-72-seasons">Live view</a></button>
+          <button type="button" name="button" class="view-code">View Code</button>
+        </article>
+
+        <article class="cs-article">
+          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <div class="article-desc">
+            <h2>Interactive Pathfinder</h3>
+              <p>Interactive visualization of pathfinding algorithms such as A*, Dijkstra, etc.</p>
+          </div>
+          <button type="button" name="button" class="live-view"><a href="projects\pathfinder">Live view</a></button>
           <button type="button" name="button" class="view-code">View Code</button>
         </article>
       </section>
