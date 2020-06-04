@@ -2,10 +2,15 @@
 <html lang="en">
 
 <head>
+  <meta property="og:title" content="Example Page">
+  <meta property="og:image" content="https://mitchellvictoriano.com/imgs/hero-img.JPG">
+  <meta property="og:description" content="Career portfolio for Mitchell Victoriano - Mechanical Engineer and Software Developer.">
+  <meta property="og:url" content="https://mitchellvictoriano.com/">
+  <meta name="twitter:card" content="summary_large_image">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Career portfolio for Mitchell Victoriano - Aspiring Mechanical Engineer and Software Developer.">
+  <meta name="description" content="Career portfolio for Mitchell Victoriano - Mechanical Engineer and Software Developer.">
   <title>Mitchell Victoriano - Portfolio</title>
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
