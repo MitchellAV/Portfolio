@@ -88,7 +88,7 @@
       <section id="me-projects">
 
         <article class="me-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>Biomass Fuel Synthesizer Subsystems</h3>
               <p>San Jose State University Mechanical Engineering senior project.</p>
@@ -101,7 +101,7 @@
         
         </article>
         <article class="me-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>Shower Heat Exchanger</h3>
               <p>Verified the design of a horizontal double pipe heat exchanger presented in a research paper by using ANSYS Fluent (CFD Software) and comparing our results to their experimental temperature data. This home application of a heat
@@ -111,7 +111,7 @@
         
         </article>
         <article class="me-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>Ball and Plate PID Controller</h3>
               <p>Prototyped a Ball Centering Table which would balance a foam ball in the center of a platform that would correct itself upon any external disturbances. This project used four ultrasonic sensors, two light dependent resistor (LDR)
@@ -121,7 +121,7 @@
           
         </article>
         <article class="me-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>Foldable Compact Step</h3>
               <p>Designed and prototyped a foldable step using SOLIDWORKS that fits flush in the toe space under kitchen cabinets and allows for more than half a foot increase in height when in use. The prototype was made from Aluminum, Birch wood,
@@ -136,7 +136,7 @@
       <section id="cs-projects">
 
         <article class="cs-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>FFXIII-2 Clock Puzzle Solver</h3>
               <p>Web application that solves the "Hands of Time" puzzle from the game Final Fantasy XIII-2.</p>
@@ -146,7 +146,7 @@
         </article>
 
         <article class="cs-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>Woosh Yelp App</h3>
               <p>Web application that searches the users location for places to eat/drink and allows for a "Tinder" style swipe left or right decision.</p>
@@ -156,7 +156,7 @@
         </article>
 
         <article class="cs-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>IMDb TV Graph</h3>
               <p>This web applications allows for the user to search for a TV show and creates a visual representation of each episode rating for each season as well as statistical information including trends and best/worst episodes and seasons.</p>
@@ -166,7 +166,7 @@
         </article>
 
         <article class="cs-article">
-          <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img">
+          <!-- <img src="https://i.imgur.com/GHHwIqP.jpg" alt="" class="article-img"> -->
           <div class="article-desc">
             <h2>72 Seasons</h3>
               <p>This web applications displays the current microseason based from the traditional Japanese calendar. The traditional Japanese calendar contains 24 major divisions which are split into 3 minor divisions that marks the passing of the
